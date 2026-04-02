@@ -8,7 +8,8 @@
 
 
 ### Activity 2
-Put your activity 2 image here. REMOVE THIS INSTRUCTIONAL TEXT.
+<img width="960" height="720" alt="GDIM 33 Breakdown" src="https://github.com/user-attachments/assets/408ba7ca-3a06-4675-9881-1d11ba42ce33" />
+
 
 
 ## W2
