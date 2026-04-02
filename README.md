@@ -3,7 +3,7 @@
 ### Activity 1
 Put your inspo board link here. Do NOT leave a bare URL. REMOVE ALL INSTRUCTIONAL TEXT.
 
-1. Put your activity 1 answers here.
+1. [Mood Board](https://docs.google.com/drawings/d/137NF1I_z6MVHimet8F8JeoYGWbEKrYcGnjdGF0K_KmU/edit?usp=sharing)
 2. Please keep the proper list format.
 
 
