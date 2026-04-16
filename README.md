@@ -13,6 +13,16 @@
 
 
 ## W2
-Write your W2 Devlog here.
+### Activity 1
+<img width="1275" height="743" alt="GDIM 33 Breakdown" src="https://github.com/user-attachments/assets/64cb7321-8ed8-4cfc-8e3a-69bd19a7e1a9" />
+
+### Activity 2
+1. It is advantageous to save the event name for the explorer to dialogue state transitions as the scene variable “clickNpcEventName” so that we could access it in the walrus graph to start the transition. It could also help in trying to set up future NPC’s as we can just trigger that same event throughout the scene.
+2. The way that one debug.log helped me test my graphs was that it helped me notice that the transition was not transitioning because the debug.log was not activating. This allowed me to fix the way the custom event trigger was triggering because it was not triggering the transition like it was supposed to.
+3. Yes the set cursor lock state is relevant to my vertical slice as I want there to be movement with the cursor locked and then be able to pull up a tablet and use your mouse to click things so it will be useful to move between those two states.
+4. Yes, the concept of the “game state” is relevant to my vertical slice as it will help me control how my player moves and interacts with objects and also how my monster will move around depending on the specific game states it has.
+
+
+
 
 Continue adding additional headers below this one for future weeks and future activities.
