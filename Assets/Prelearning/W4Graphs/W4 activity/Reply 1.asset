@@ -10,11 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d87814806be98455aa06d85e22ad29d6, type: 3}
-  m_Name: DialogueLineW4
+  m_Name: Reply 1
   m_EditorClassIdentifier: 
-  Line: Sup my brotha
-  ReplyOptions:
-  - line: Reply 1
-    nextNode: {fileID: 11400000, guid: ffb0ff6d530770044acc392286ea5598, type: 2}
-  - line: Reply 2
-    nextNode: {fileID: 11400000, guid: 959bc7aada1836f49a44e2c7286380ac, type: 2}
+  Line: sup
+  ReplyOptions: []
