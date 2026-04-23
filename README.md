@@ -24,9 +24,10 @@
 
 ## W4
 ### Activity 1
-1. What is playable right now is that there is a monster that chases you and you are able to run away. You can both move and look around and there is a timer that will count down and if it reaches zero the player wins. But if the monster touches the player the player loses. I am testing to make sure there are no bugs in the movement, camera controls, and monster collision.
-2. The playtest went well nothing went wrong all the collision triggered correctly although the timer glitched a bit it was an easy fix. Of course with this prototype it was not that difficult but it was a playable game I think keeping the player at one speed but allowing the monster to speed up might be better in the long run.
-3. Nathan H., Kai M. Marcelo TET.
+1. What is playable right now is that there is a monster that chases you and you are able to run away. You can both move and look around and there is a timer that will count down and if it reaches zero the player wins. But if the monster touches the player the player loses.
+2. I am testing to make sure there are no bugs in the movement, camera controls, and monster collision.
+3. The playtest went well nothing went wrong all the collision triggered correctly although the timer glitched a bit it was an easy fix. Of course with this prototype it was not that difficult but it was a playable game I think keeping the player at one speed but allowing the monster to speed up might be better in the long run.
+4. Nathan H., Kai M. Marcelo TET.
 
 
 ### Activity 2
