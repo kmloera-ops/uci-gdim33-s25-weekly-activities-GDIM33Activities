@@ -35,5 +35,17 @@
 2. I do not think there is a limit to creating dialogue nodes but it might become very convoluted the more you have to make reply wise. But theoretically it could be done just not as efficient. This reminds me of how most of the dialogue in undertale is in one if statement, inefficient but it works.
 3. It refreshes the library of nodes so that they can be refreshed and also it allows newly added nodes to be accessed in script machines and graphs.
 
+## W5
+### Activity 1
+1. Create a navmesh for the monster to track the player
+   a. Create and bake a navmesh that allows walking through hallways
+   b. Have it track the player and follow them
+   c. Have it update every frame so that it can follow the player when they move
+2. Have the monster speed up when it reaches a specific radius close to the player and make it chase
+3. Create monster control StateMachine with the categories of Chasing the player, breaking light, running away from light, and wandering.
+4. Finish making a map for the player and monster to roam around in.
+
+## Activity 2
+Today in class I created a navmesh for my monster instead of the usual scripting graph that would just transform itself to follow the players position I now have set it up through navmesh of the terrain. This helps me in the future as it will help my monster go around walls unlike how my last one was working. I had an error in the beginning where I couldn't tell why my navmesh surface was not baking correctly but I got it working. But right now I have replaced all the code that controlled movement with navmesh and I also got my lose condition working again on the monster.
 
 Continue adding additional headers below this one for future weeks and future activities.
