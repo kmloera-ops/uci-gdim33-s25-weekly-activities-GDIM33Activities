@@ -45,7 +45,7 @@
 3. Create monster control StateMachine with the categories of Chasing the player, breaking light, running away from light, and wandering.
 4. Finish making a map for the player and monster to roam around in.
 
-## Activity 2
+### Activity 2
 Today in class I created a navmesh for my monster instead of the usual scripting graph that would just transform itself to follow the players position I now have set it up through navmesh of the terrain. This helps me in the future as it will help my monster go around walls unlike how my last one was working. I had an error in the beginning where I couldn't tell why my navmesh surface was not baking correctly but I got it working. But right now I have replaced all the code that controlled movement with navmesh and I also got my lose condition working again on the monster.
 
 Continue adding additional headers below this one for future weeks and future activities.
