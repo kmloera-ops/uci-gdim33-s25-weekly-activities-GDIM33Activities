@@ -48,4 +48,17 @@
 ### Activity 2
 Today in class I created a navmesh for my monster instead of the usual scripting graph that would just transform itself to follow the players position I now have set it up through navmesh of the terrain. This helps me in the future as it will help my monster go around walls unlike how my last one was working. I had an error in the beginning where I couldn't tell why my navmesh surface was not baking correctly but I got it working. But right now I have replaced all the code that controlled movement with navmesh and I also got my lose condition working again on the monster.
 
+
+##W6
+###Activity 1
+1. What is new in my build is lights repelling, monster navmesh, new map, and controlling whether lights turn on and off. I also changed how fast the player and monster move, making the monster move faster than the player. I also added a cooldown on the lights so that the player cannot spam them.
+2. [Itch Playtest 2](https://kmloera-ops.itch.io/playtest-2-vertical-slice)
+3. My playtesting goals are to make sure my navmesh is working correctly, see how players use the lights to avoid the monster, and test that the lights correctly repel the monster away. I need to see if there are any bugs with my light repelling the monster and if there are any improvements I can make upon it. Also it would be interesting to see what playtesters think of the current map and how it can improve. I also changed how fast the player and monster move to make the monster more menacing. I want to see if the cooldowns are good enough for the players or if its too hard or easy.
+4. Playtesting Notes: During the playtests players were unsure of where the lights were and it caused some confusion of them thinking they had a flashlight. They also weren’t sure when they could turn the lights back on so it might be good to have an indicator showing that the lights can be turned back on.
+
+###Activity 2
+1. The reason that the multiply setting of the blend node makes the resulting color darker and less saturated than the input colors is because the lower the RGB values get the closer they get to just being a solid black. This usually happens when decimal values are multiplied together they get smaller.
+2. I think if we were to multiply alpha values the result would be more translucent because it is going down the spectrum making it look less opaque. This is because alpha values are also stored between 0.0 and 1.0.
+3. The shader gets these UV coordinates from the mesh as it has UV coordinates stored within the model.
+4. I always knew that this was possible so I guess I am not surprised or more interested in it but I might enjoy making lighting have a specific effect on objects.
 Continue adding additional headers below this one for future weeks and future activities.
