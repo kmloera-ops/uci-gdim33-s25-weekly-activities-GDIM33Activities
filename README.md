@@ -61,4 +61,16 @@ Today in class I created a navmesh for my monster instead of the usual scripting
 2. I think if we were to multiply alpha values the result would be more translucent because it is going down the spectrum making it look less opaque. This is because alpha values are also stored between 0.0 and 1.0.
 3. The shader gets these UV coordinates from the mesh as it has UV coordinates stored within the model.
 4. I always knew that this was possible so I guess I am not surprised or more interested in it but I might enjoy making lighting have a specific effect on objects.
+
+
+## W7
+### Activity 1
+1. I believe that the vertex color node would get its data from the original mesh.
+2. The color on our shiba from step 3 is blended at the edges of different regions of colors because it uses the (x,y,z) coordinates of the mesh as surface normals for the (r,g,b) values.
+3. The reason it is less detailed than the shiba is because vertex colors are less detailed than texture colors. I can imagine that vertex coloring is good for simple applications and optimization.
+4. On the back of the dog there is a random green spot which I believe should not be there in the mesh’s vertex normals.
+5. One other piece of vertex data that we can test with a debug shader like this is the lighting. This can be useful to see how the lighting will affect the shadows of specific models such that it looks natural according to where the light is in accordance with the model.
+6. There is an error in the lighting in step 4 on the back of the shiba because that specific part of the shiba’s mesh has a normal value that is negative to the rest of the shiba’s back.
+7. The reason the blend mode uses additive instead of multiplicative is because multiplicative would multiply the values and make the shader material darker while additive allows it to stay transparent and full of color.
+
 Continue adding additional headers below this one for future weeks and future activities.
