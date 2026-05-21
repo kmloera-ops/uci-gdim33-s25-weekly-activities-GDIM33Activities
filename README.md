@@ -73,4 +73,26 @@ Today in class I created a navmesh for my monster instead of the usual scripting
 6. There is an error in the lighting in step 4 on the back of the shiba because that specific part of the shiba’s mesh has a normal value that is negative to the rest of the shiba’s back.
 7. The reason the blend mode uses additive instead of multiplicative is because multiplicative would multiply the values and make the shader material darker while additive allows it to stay transparent and full of color.
 
+
+## W8
+### Activity 1
+# Playtest Goals:
+1. Test the Button UI
+2. See what improvements players could suggest in gameplay for using buttons
+3. Test how strong/weak the lights are in helping the player
+4. See about what could be made to make the game more beginner friendly
+5. Test the new Exit mechanic
+# Whats New:
+What is new in my build, since my last milestone, is that the map is now bigger, more lights have been added, and also a new way of winning has been added and that is to get to an exit door.
+# Feedback:
+The feedback I received was a lot. First it was that there was no indication of the monster getting closer and the buttons do not show what lights they turn on so you have to kind of guess. Then also some mentioned that the mouse sensitivity was too high. Players said they didn't have enough time to get to the exit and it was better to just wait out the timer. A very big suggestion was to just work on setting up audio or visual cues to show that the monster is getting closer without the player having to look behind them. Otherwise players said that the game was fun and that they can’t wait to see what it would look like with good UI and visuals.
+[Itch Link](https://kmloera-ops.itch.io/playtest-3)
+
+## Activity 2C
+1. The pass associated with the post processing effect is the FullScreenPass. Then the way we can tell is because the shader we created affects the whole screen.
+2. The way that the screen looks if it is 0.5 is it has the texture but not really any of the red color. At 0 the texture completely disappears. Then at 1 it is very apparent over the screen but it is slightly see through so that you can see the tomato cat.
+3. What this value decides is which one is more dominant over the other so at 0 it is the original image at 0.5 it is split between both and at 1 it shows mostly the shader but you can still see the other because it is slightly translucent.
+4. The reason that we use (sin(time)+1)/2 is because we need values between 0 and 1 while regular sin(time) gives us values between -1 and 1. This way when we add 1 it keeps the range between 0 and 2 then dividing it by keeps the range between 0 and 1.
+
+
 Continue adding additional headers below this one for future weeks and future activities.
