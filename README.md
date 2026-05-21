@@ -76,16 +76,17 @@ Today in class I created a navmesh for my monster instead of the usual scripting
 
 ## W8
 ### Activity 1
-# Playtest Goals:
+#### Playtest Goals:
 1. Test the Button UI
 2. See what improvements players could suggest in gameplay for using buttons
 3. Test how strong/weak the lights are in helping the player
 4. See about what could be made to make the game more beginner friendly
 5. Test the new Exit mechanic
-# Whats New:
+#### Whats New:
 What is new in my build, since my last milestone, is that the map is now bigger, more lights have been added, and also a new way of winning has been added and that is to get to an exit door.
-# Feedback:
+#### Feedback:
 The feedback I received was a lot. First it was that there was no indication of the monster getting closer and the buttons do not show what lights they turn on so you have to kind of guess. Then also some mentioned that the mouse sensitivity was too high. Players said they didn't have enough time to get to the exit and it was better to just wait out the timer. A very big suggestion was to just work on setting up audio or visual cues to show that the monster is getting closer without the player having to look behind them. Otherwise players said that the game was fun and that they can’t wait to see what it would look like with good UI and visuals.
+
 [Itch Link](https://kmloera-ops.itch.io/playtest-3)
 
 ## Activity 2C
