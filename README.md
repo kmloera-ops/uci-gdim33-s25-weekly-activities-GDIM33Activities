@@ -89,11 +89,27 @@ The feedback I received was a lot. First it was that there was no indication of 
 
 [Itch Link](https://kmloera-ops.itch.io/playtest-3)
 
-## Activity 2C
+### Activity 2C
 1. The pass associated with the post processing effect is the FullScreenPass. Then the way we can tell is because the shader we created affects the whole screen.
 2. The way that the screen looks if it is 0.5 is it has the texture but not really any of the red color. At 0 the texture completely disappears. Then at 1 it is very apparent over the screen but it is slightly see through so that you can see the tomato cat.
 3. What this value decides is which one is more dominant over the other so at 0 it is the original image at 0.5 it is split between both and at 1 it shows mostly the shader but you can still see the other because it is slightly translucent.
 4. The reason that we use (sin(time)+1)/2 is because we need values between 0 and 1 while regular sin(time) gives us values between -1 and 1. This way when we add 1 it keeps the range between 0 and 2 then dividing it by keeps the range between 0 and 1.
 
+## W9
+### Activity 1
+1. Mario kart
+2. Effect 1: Mario Kart Ink Debuff
+This is a full-screen post-processing effect applied to the entire camera 
+The shader involves applying temporary moving inkblot textures to the camera after the player gets attacked by a squid powerup
+I might activate the effect by enabling an entire post-processing effect and then using methods to instantiate inkblots at random coordinates. Once created, the inkblot shader graph will handle its shape and movement.
+3. Effect 2: Mario Kart Star Power Up Cart Effect
+Individual Object’s Material
+This would be activated when players use a star power up
+I believe that this involves multiplying the rainbow effect on top of the model of the player and their cart kind of like the shiba activity but instead of replacing the model it combines them. The rainbow effect would likely be drawn from a pre-made gradient texture. 
+
+### Activity 2
+Shader Graph:
+<img width="1109" height="821" alt="Shader Graph" src="https://github.com/user-attachments/assets/0a76998b-217c-4102-864f-9d0eb057a903" />
+1. A problem that I solved today was the amount of lag that was happening when people were playing my game. From what I could tell I set the navmesh to be too big of an area that I did not need and I also stopped the navmesh from updating every frame to update every 0.25 seconds
 
 Continue adding additional headers below this one for future weeks and future activities.
