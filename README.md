@@ -116,7 +116,7 @@ Shader Graph:
 ## W10
 ### Activity 1
 1. What is new in my build since my last milestone was that I fixed a bug that was occurring with the mouse controls causing it to glitch. Other than that I have not added much due to lack of time and doing work for other classes.
-2. [Itch Link] (https://kmloera-ops.itch.io/gdim-33-playtest-4)
+2. [Itch Link](https://kmloera-ops.itch.io/gdim-33-playtest-4)
 3. Playtesting Goals: My playtesting goals are to test the new UI, see if there are any bugs, and see if I need to change the difficulty.
 4. People really liked the new UI and liked the newer mouse sensitivity that wasn’t that high. Though they wish the tablet UI would show where the player was relative to where they are on the map.
 
