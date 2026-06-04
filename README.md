@@ -112,4 +112,19 @@ Shader Graph:
 <img width="1109" height="821" alt="Shader Graph" src="https://github.com/user-attachments/assets/0a76998b-217c-4102-864f-9d0eb057a903" />
 1. A problem that I solved today was the amount of lag that was happening when people were playing my game. From what I could tell I set the navmesh to be too big of an area that I did not need and I also stopped the navmesh from updating every frame to update every 0.25 seconds
 
+
+## W10
+### Activity 1
+1. What is new in my build since my last milestone was that I fixed a bug that was occurring with the mouse controls causing it to glitch. Other than that I have not added much due to lack of time and doing work for other classes.
+2. [Itch Link] (https://kmloera-ops.itch.io/gdim-33-playtest-4)
+3. Playtesting Goals: My playtesting goals are to test the new UI, see if there are any bugs, and see if I need to change the difficulty.
+4. People really liked the new UI and liked the newer mouse sensitivity that wasn’t that high. Though they wish the tablet UI would show where the player was relative to where they are on the map.
+
+### Acitvity 2
+Planning Strategy:
+Clearly create breakdowns of the concept of your game and create task breakdowns for those features you aren’t sure how to make yet. List out all the mechanics and systems that you plan on including in your game. Update your breakdown throughout the creation process. Then create macros and burndown charts for your scope so that you can plan how long you will have to make  a game. Make a vertical slice before trying to make a full game. Constantly ask yourself if this concept is fun to play. Comment and organize your code so you know where everything is. Playtest frequently (usually around every major update that can change gameplay) to test for bugs and player interactions. Get input from all sorts of people like those who play games, those who don’t, people who have played your game before, and those who haven’t. Always take notes during playtests to know what is working and what is not working. Plan on how much time you are going to spend on this project and make sure it's a realistic amount especially with deadlines.
+
+### Acitivty 3
+I made changes to the monster's speed, acceleration, and angular speed to fix the issue of players dodging the monster. Added a roof to make the lights look more visible when on because players said that they were hard to notice when they turned off and on. Then tried to make the lights look different so that they would shine directly down to the ground but it did not work that well.
+
 Continue adding additional headers below this one for future weeks and future activities.
